@@ -6,7 +6,7 @@ node {
 
     stage ("Run init tests") {
         echo "Running unit tests"
-        sh "mvn tets"
+        sh "mvn test"
     }
 
     stage ("Build project") {
